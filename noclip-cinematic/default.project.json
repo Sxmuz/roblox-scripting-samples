@@ -1,0 +1,17 @@
+{
+  "name": "BackroomsNoclipDemo",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "NoclipConfig": { "$path": "src/shared/NoclipConfig.luau" }
+    },
+    "ServerScriptService": {
+      "NoclipServer": { "$path": "src/server/NoclipServer.server.luau" }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "NoclipClient": { "$path": "src/client/NoclipClient.client.luau" }
+      }
+    }
+  }
+}
